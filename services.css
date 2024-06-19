@@ -1,0 +1,23 @@
+.navlinks{
+    color: white;  
+  }
+  .navlinks > a{
+ color: white;
+text-decoration: none;
+ margin: 16px; }
+ body{
+ background-color:rgb(11, 11, 83); 
+ } 
+ .roro{
+    color: beige;
+ }
+ .logo{
+    color: honeydew;
+ }
+ .navigation{
+    width: 70%;
+    margin: auto;
+    display: flex; 
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;  }                
