@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(11, 11, 83);
+    background-color:rgb(9, 9, 24);
 }
     
 .navigation{
@@ -11,7 +11,7 @@ body{
     justify-content: space-around;  
 }
 .logo{
-    color: grey;
+    color: white;
 }
 .navlinks{
   color: white;  
@@ -85,6 +85,7 @@ h1>hero{
     margin: auto;
     margin-top: 10px;
     text-align: center;
+    color: white;
 }
 .row{
     display: flex;
@@ -106,6 +107,59 @@ h1>hero{
     width: 350px;
     max-height: 250px;
   
+}
+.holiday-cards{
+    width:70% ;
+    margin: auto;
+    color:white;
+    margin-top: 50px;
+}
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card > img {
+    width: 100%;
+    height: auto;
+}
+.card-content{
+    padding: 16px;
+    font-size: 18px;
+    
+}
+.card-content{
+    margin:  0 0 ;
+}
+.card{
+    background-color: rgb(177, 196, 196);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 16px 0;
+    width: 30%;
+    color:black;
+}
+h2{
+    color: black;
+}
+.card-content >h2 {
+    margin: 0 0 8px;
+}
+.card-content >p {
+    margin: 8px;
+    font-size: 18px;
+}
+.card-content > button{
+    margin: 8px 0;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    color:black;
+    background-color:aquamarine;
+    cursor: pointer;
+}
+.card-content > button:hover{
+    background-color: brown;
 }
 
     
