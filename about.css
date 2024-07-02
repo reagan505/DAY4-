@@ -1,3 +1,10 @@
+body{
+    background-image: url(./underwater-view.jpg);
+    background-repeat:repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .navlinks{
     color: rgb(201, 54, 54);
 }
@@ -22,11 +29,9 @@
     flex-direction: row;
     justify-content: space-around;  
 }
-.logo{
-    color: grey;
-}
+
 .navlinks{
-  color: white;  
+  color: rgb(235, 213, 213);  
 }
 .navlinks > a{
     color: white;
@@ -67,9 +72,7 @@
 .search button :hover{
     background-color:rgb(80, 145, 123);
 }
-body{
-    background-color:rgb(5, 5, 27);
-}
+
 .mission{
     color: rgb(5, 5, 27);
     display: flex;
@@ -98,5 +101,5 @@ h3{
     margin-top: 2rem;
 }
 .reject > img{
-    width: 75%;
+    width: 60%;
 }

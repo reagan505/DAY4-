@@ -1,5 +1,6 @@
 body{
-    background-color:rgb(9, 9, 24);
+    background-color:rgb(4, 4, 77); 
+    font-family: 'Times New Roman', Times, serif;
 }
     
 .navigation{
@@ -57,7 +58,7 @@ position: relative;
 .hero-content button:hover{
     background-color:aqua;
 }
-h1>hero{
+h1 > hero{
     color:black;
 }
     .search{
@@ -132,7 +133,7 @@ h1>hero{
     margin:  0 0 ;
 }
 .card{
-    background-color: rgb(177, 196, 196);
+    background-color: rgb(242, 253, 253);
     border-radius: 8px;
     overflow: hidden;
     margin: 16px 0;
