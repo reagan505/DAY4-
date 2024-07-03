@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(4, 4, 77); 
+    background-color:rgb(16, 16, 168); 
     font-family: 'Times New Roman', Times, serif;
 }
     
@@ -41,7 +41,7 @@ position: relative;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-    color: black;
+    color: blue;
 }
 .hero-content h1{
     font-size: 48px;
